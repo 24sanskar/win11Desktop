@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Win 11</title>
     <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/c6536ee7f7.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <video autoplay muted id="vid">
@@ -13,7 +17,19 @@
     </video>
     <div class="taskbar">
       <img src="images\teskcenter.png" alt="taskbar" />
-      <img class="right" src="images\taskleft.jpg" alt="" />
+      <div class="righttask">
+        <div class="righttaskicon">
+          <i class="fa-solid fa-angle-up"></i>
+
+          <i class="fa-solid fa-wifi"></i>
+          <i class="fa-sharp fa-solid fa-volume-xmark"></i>
+          <i class="fa-solid fa-battery-three-quarters"></i>
+        </div>
+        <div class="time_date">
+          <p id="time"></p>
+          <p id="date"></p>
+        </div>
+      </div>
     </div>
     <div class="startmenu">
       <img src="images\startmenu.jpg" alt="startmenu" />
