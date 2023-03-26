@@ -1,150 +1,157 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-body{
-   
-    overflow: hidden;
-    height: 100vh;
-    text-align: center;
+body {
+  overflow: hidden;
+  height: 100vh;
+  text-align: center;
 }
 
-.taskbar{
-    background-color: #4A0508;
-    width: 100%;
-    height: 50px;
-    position: absolute;
-    bottom: 0;
-    display: flex;
-    z-index: 110;
-    justify-content: center;
+.taskbar {
+  color: #fefefd;
+  background-color: #480003;
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  bottom: 0px;
+  display: flex;
+  z-index: 110;
+  justify-content: center;
 }
 
-.right{
-    justify-self: flex-end;
-    position: absolute;
-    right: 0;
-    margin: 3px 0;
-    height: 100%;
-} 
-
-.startmenu{
-    position: absolute; 
-    /* bottom: 50px; */
-    width: 100%;
-
-    bottom: -655px;
-    text-align: center;
-    transition: all 0.3s ease-in; 
+.righttask {
+  display: flex;
+  color: #fefefd;
+  position: fixed;
+  bottom: 0;
+  right: 20px;
+  transform: translateX(10px) translateY(-1px);
 }
 
-.startmenu img{
-    height: 600px;
-    width: 600px;
-    border-radius: 8px;
-
+.righttaskicon {
+  margin: 12px;
+  display: flex;
 }
 
-.chromeicon{
-  
-position: absolute;
-top: 20px;
-left: 10px;
-
-
+.righttaskicon i {
+  margin: 0px 5px;
+  font-size: 0.8rem;
 }
 
-.chromeicon img{
-    width:80px;
-
+.time_date {
+  line-height: 1rem;
 }
 
-.pcicon{
-      
-position: absolute;
-top: 122px;
-left: 22px;
-
-
+.time_date p {
+  font-size: 0.8em;
+  font-weight: 500;
+  margin-right: 20px;
 }
 
-.pcicon img{
-    width:55px;
+.startmenu {
+  position: absolute;
+  /* bottom: 50px; */
+  width: 100%;
+
+  bottom: -655px;
+  text-align: center;
+  transition: all 0.3s ease-in;
 }
 
-
-.binicon{
-position: absolute;
-top: 215px;
-left: 22px;
-
+.startmenu img {
+  height: 600px;
+  width: 600px;
+  border-radius: 8px;
 }
 
-.binicon img{
-    width:50px;
-
+.chromeicon {
+  position: absolute;
+  top: 20px;
+  left: 10px;
 }
 
-.controlicon{
-    position: absolute;
-top: 315px;
-left: 22px;
+.chromeicon img {
+  width: 80px;
 }
 
-.controlicon img{
-    width:55px;
-
+.pcicon {
+  position: absolute;
+  top: 122px;
+  left: 22px;
 }
 
-.countericon{
-    position: absolute;
-    top:415px;
-    left: 16px;
+.pcicon img {
+  width: 55px;
 }
 
-.countericon img{
-    width:66px;
-    
+.binicon {
+  position: absolute;
+  top: 215px;
+  left: 22px;
 }
 
-.countericon p{
-    position: absolute;
-    left: 10px;
+.binicon img {
+  width: 50px;
 }
 
-.dice{
-    position: absolute;
-    top:20px;
-    left: 110px;
-}
-.dice img{
-    width:90px;
-   
+.controlicon {
+  position: absolute;
+  top: 315px;
+  left: 22px;
 }
 
-.drum img{
-    width:50px;
-    position: absolute;
-    top:124px;
-    left: 127px;
+.controlicon img {
+  width: 55px;
 }
 
-.drum p{
-    position: absolute;
-    top:180px;
-    left: 132px;
+.countericon {
+  position: absolute;
+  top: 415px;
+  left: 16px;
 }
 
-.form img{
-    width:80px;
-    position: absolute;
-    top:213px;
-    left: 110px;
+.countericon img {
+  width: 66px;
 }
 
-.form p{
-    position: absolute;
-    top:269px;
-    left: 116px;
+.countericon p {
+  position: absolute;
+  left: 10px;
+}
+
+.dice {
+  position: absolute;
+  top: 20px;
+  left: 110px;
+}
+.dice img {
+  width: 90px;
+}
+
+.drum img {
+  width: 50px;
+  position: absolute;
+  top: 124px;
+  left: 127px;
+}
+
+.drum p {
+  position: absolute;
+  top: 180px;
+  left: 132px;
+}
+
+.form img {
+  width: 80px;
+  position: absolute;
+  top: 213px;
+  left: 110px;
+}
+
+.form p {
+  position: absolute;
+  top: 269px;
+  left: 116px;
 }
